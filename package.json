@@ -1,0 +1,44 @@
+{
+  "name": "json2xlsx-webservice-docker",
+  "version": "1.0.0",
+  "description": "Upload data and get xlsx-document in return",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmail.com",
+    "url": "https://github.com/maccyber"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/json2xlsx-webservice-docker/issues"
+  },
+  "homepage": "https://github.com/telemark/json2xlsx-webservice-docker",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.4.1"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node standalone.js",
+    "setup": "npm install && node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/json2xlsx-webservice-docker.git"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "standard": "^6.0.8",
+    "tap": "^5.7.1"
+  },
+  "dependencies": {
+    "xlsx-writestream": "^0.4.0",
+    "hapi": "^13.3.0",
+    "inert": "^3.2.0",
+    "joi": "^8.0.5",
+    "lout": "^9.0.0",
+    "vision": "^4.1.0",
+    "uuid": "^2.0.1"
+  }
+}

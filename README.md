@@ -6,9 +6,8 @@ Post json data and get a xlsx document in return
 ```sh
 curl \
   -X POST \
-  -H "multipart/form-data" \
-  -d 'data: [{ "tittel": "text", "type": "person" },{ "tittel": "text1", "type": "person2" }]' \
-  http://localhost:3000 > converted.xlsx
+  -d 'data=[{"tittel":"text","type":"person"},{"tittel":"text1","type":"person2"}]' \
+   http://localhost:3000 > converted.xlsx
 ```
 
 ## Docker

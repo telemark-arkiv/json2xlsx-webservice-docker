@@ -1,5 +1,6 @@
 'use strict'
 
+var fs = require('fs')
 var uuid = require('uuid')
 var createXlsxDocument = require('../lib/create-xlsx-document')
 
@@ -22,7 +23,11 @@ function createDocument (request, reply) {
       reply(err)
     }
     console.log(res)
-    reply.file(docFilePath)
+    reply.file(docFilePath, {
+      filename: temporaryName
+    }).on('finish', function () {
+      fs.unlink(docFilePath)
+    })
   })
 }
 

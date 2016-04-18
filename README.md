@@ -12,14 +12,8 @@ curl \
 
 ## Docker
 
-Build the image
-
-```sh
-$ docker build -t json2xlsx .
-```
-
 Run the image
 
 ```sh
-docker run -d -p 80:3000 --name json2xlsx json2xlsx
+docker run -d -p 3000:3000 --name json2xlsx_2 telemark/json2xlsx-webservice-docker
 ```

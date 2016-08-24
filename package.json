@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "standard": "^7.0.0",
+    "standard": "^8.0.0",
     "tap": "^6.0.0"
   },
   "dependencies": {

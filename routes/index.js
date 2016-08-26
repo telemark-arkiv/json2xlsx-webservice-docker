@@ -2,6 +2,7 @@
 
 var handlers = require('../handlers')
 var Joi = require('joi')
+var config = require('../config')
 
 var routes = [
   {
@@ -14,7 +15,8 @@ var routes = [
         payload: {
           output: 'stream',
           parse: true,
-          data: Joi.array().required()
+          data: Joi.array().required(),
+          maxBytes: parseInt(config.PAYLOAD_MAX_SIZE, 10)
         }
       }
     }

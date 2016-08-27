@@ -30,7 +30,7 @@
   "devDependencies": {
     "coveralls": "^2.11.9",
     "standard": "^8.0.0",
-    "tap": "^6.0.0"
+    "tap": "^7.0.0"
   },
   "dependencies": {
     "xlsx-writestream": "^0.4.0",

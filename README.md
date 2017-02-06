@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/json2xlsx-webservice-docker.svg?branch=master)](https://travis-ci.org/telemark/json2xlsx-webservice-docker)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # json2xlsx-webservice-docker
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/json2xlsx-webservice-docker.svg)](https://greenkeeper.io/)
 Post json data and get a xlsx document in return
 
 ```sh

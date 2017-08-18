@@ -1,6 +1,6 @@
 {
   "name": "json2xlsx-webservice-docker",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Upload data and get xlsx-document in return",
   "license": "MIT",
   "author": {
@@ -36,7 +36,7 @@
     "xlsx-writestream": "^0.4.0",
     "hapi": "^16.0.0",
     "inert": "^4.0.0",
-    "joi": "^10.6.0",
+    "joi": "^10.0.0",
     "lout": "^10.0.0",
     "vision": "^4.1.0",
     "uuid": "^3.0.0"

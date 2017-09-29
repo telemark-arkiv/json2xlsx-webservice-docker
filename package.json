@@ -28,7 +28,7 @@
     "url": "git://github.com/telemark/json2xlsx-webservice-docker.git"
   },
   "devDependencies": {
-    "coveralls": "^2.11.9",
+    "coveralls": "^3.0.0",
     "standard": "^10.0.2",
     "tap": "^10.0.0"
   },

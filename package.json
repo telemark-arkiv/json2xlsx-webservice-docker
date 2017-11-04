@@ -35,7 +35,7 @@
   "dependencies": {
     "xlsx-writestream": "^0.5.1",
     "hapi": "^16.0.0",
-    "inert": "^4.0.0",
+    "inert": "^5.0.1",
     "joi": "^13.0.0",
     "lout": "^10.0.0",
     "vision": "^4.1.0",
